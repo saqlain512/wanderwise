@@ -1,0 +1,37 @@
+{
+  "name": "wander-wise-backend",
+  "version": "1.0.0",
+  "description": "backend apis for wanderwise",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahamxa/wanderWise.git"
+  },
+  "author": "Ameer Hamza",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Ahamxa/wanderWise/issues"
+  },
+  "homepage": "https://github.com/Ahamxa/wanderWise#readme",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.3",
+    "path": "^0.12.7",
+    "url": "^0.11.3"
+  }
+}
